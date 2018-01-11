@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html, body{
+	margin: 0;
+	padding: 0;
+	background: #C0C0C0;
+	font-family: ubuntu;
+	color: white
+}
+h1, h3 {
+	font-variant: small-caps;
+}
+/*_______________________NAVIGATION_____________________________*/
+
+#nav{
+	z-index: 1;
+	top: 0px;
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	background: #696969;
+	text-align: center;
+	border-top: solid;
+	border-width: 10px;
+	border-color: #696969;
+}
+
+.ButonNav{
+	display: inline-block;
+	display: table-cell;
+	height: 40px;
+	width: 150px;
+	margin-right: 3em;
+	margin-left: 3em;
+	white-space: normal;
+	background: #C0C0C0;
+	color:#000000;	
+	vertical-align: middle;
+	border: solid;
+	border-color: #696969;
+	border-width: 0px 0px 0px 100px; 
+	text-decoration: none;
+}
+
+
+/*___________________________PRINCIPALE____________________________________*/
+
+
+
+#principal{
+	display: block;
+	position: absolute;
+	width: 60%;
+	top: 50px;
+    right: 10%;
+}
+
+#titre{
+	display: block;
+	height: 50px;
+	width: 750px;
+	background: #696969;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	vertical-align: middle;
+}
+
+#iconesLang{
+}
+
+
+.icoSolo{
+
+	padding: auto;
+	margin-left: 10%
+}
+
+.divBlock{
+	display: block;
+	width: 90%;
+	height: auto;
+	border-radius: 10px;
+	background: #696969;
+	padding: 20px;
+	margin: 30px;
+}
+
+#accroche{
+	display: block;
+	width: 60%;
+	border-radius: 10px;
+	background: #696969;
+	text-align: center;
+	margin: auto;
+
+}
+
+.competSolo{
+	display: inline-block;
+	vertical-align: middle;
+	background: #C0C0C0;
+	color: black;
+	height: 100px;
+	width: 100px;
+}
+
+/*__________________________________SIDER_____________________________________*/
+
+#photo{
+	margin-left: 15%;
+}
+
+#aside{
+	display: block;
+	position: absolute;
+	width: 25%;
+	height: auto;
+	top: 50px;
+    left: 20px;
+	padding: 20px;
+	margin: 0px;
+}
+
+.miniPicto{
+	width: 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#dl{
+	background: #696969;
+	margin-left: 30%;
+	border: none;
+	color: white;
+}
+
+
+
+
+
+
+#overlay{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+
+    opacity: 1;
+    z-index: 1000;
+}
+
+#overlay:target{
+    display: block;
+}
+
+#overlay a{
+    padding: 10px 25px;
+    width: 20%;
+    background-color: grey;
+    color: white;
+    white-space: normal;
+    position: absolute;
+    opacity: 100;
+    top: 40%;
+    left: 40%;
+	text-decoration: none;
+}
+
+
